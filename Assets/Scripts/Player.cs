@@ -25,9 +25,7 @@ public class Player : MonoBehaviour
     private void Update()
     {
         MoveToWayPoint();
-        //transform.LookAt(_wayPoints[_wayPointIndex + 1].transform.position);
-        Debug.Log("Index" + _wayPointIndex);
-        Debug.Log("Хуита" + _wayPoints.Length);
+
     }
 
     private void MoveToWayPoint()
